@@ -32,9 +32,9 @@ def make_submission(predict_prob):
     file.close()
 
 
-TRAIN_PATH = 'mojing/train.csv'
-TEST_PATH = 'mojing/test.csv'
-QUESTION_PATH = 'mojing/question.csv'
+TRAIN_PATH = 'train.csv'
+TEST_PATH = 'test.csv'
+QUESTION_PATH = 'question.csv'
 
 print('Load files...')
 questions = pd.read_csv(QUESTION_PATH)
